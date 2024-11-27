@@ -1,0 +1,66 @@
+.omdb_movies {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.search_movie {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 20px;
+    position: sticky;
+    top: 0;
+}
+
+.input_field {
+    height: 50px;
+    width: 60%;
+    padding: 20px;
+    font-size: 15px;
+    border-radius: 7px;
+    border: none;
+}
+
+.btn {
+    height: 50px;
+    width: 10%;
+    font-size: 17px;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    background-color: crimson;
+    color: white;
+}
+.btn:active {
+    transition: all;
+    transition-duration: 0.1s;
+    color: black;
+    background-color: white;
+}
+
+.movie_list {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.movie {
+    height: 330px;
+    width: 350px;
+    gap: 50px;
+    margin-top: 40px;
+    border: none;
+}
+
+.movie img {
+    height: 100%;
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px white;
+}
